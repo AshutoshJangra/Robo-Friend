@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/Robo-Friend/static/js/runtime~main.1968003f.js"
   },
   {
-    "revision": "9339892c8a48383e5a0e",
-    "url": "/Robo-Friend/static/js/main.9339892c.chunk.js"
+    "revision": "ec024716b6922ffbb982",
+    "url": "/Robo-Friend/static/js/main.ec024716.chunk.js"
   },
   {
     "revision": "4a34e45d34cafb7623bd",
     "url": "/Robo-Friend/static/js/1.4a34e45d.chunk.js"
   },
   {
-    "revision": "9339892c8a48383e5a0e",
+    "revision": "ec024716b6922ffbb982",
     "url": "/Robo-Friend/static/css/main.00dbcbae.chunk.css"
   },
   {
-    "revision": "af62613b87988e0aa80fb92933bb6fa7",
+    "revision": "90e307ac64fc23aac31518d59f4e7a5c",
     "url": "/Robo-Friend/index.html"
   }
 ];
