@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     //filter the robots as user enter in searchbox and pass it to cardlist to display
     const { robots, searchfield } = this.state;
-    const filteredRobots = robots.filter(robot => {
+    const robot = robots.filter(robot => {
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     });
 
@@ -38,7 +38,7 @@ class App extends Component {
         <h1 className="f1 mt0 pt4 moon-gray tc">Robo Friend</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
-          <CardList robots={robots} />
+          <CardList robots={robot} />
         </Scroll>
       </div>
     );
