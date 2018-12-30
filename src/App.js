@@ -35,7 +35,7 @@ class App extends Component {
 
     return (
       <div className="App bg-dark-gray">
-        <h1 className="f1 mt0 pt4 light-silver tc">Robo Friend</h1>
+        <h1 className="f1 mt0 pt4 moon-gray tc">Robo Friend</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <Scroll>
           <CardList robots={filteredRobots} />
